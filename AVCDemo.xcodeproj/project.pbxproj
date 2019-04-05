@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A624E1322545243001C33EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A624E1222545243001C33EE /* AppDelegate.m */; };
+		2A624E1622545243001C33EE /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A624E1522545243001C33EE /* ViewController.mm */; };
+		2A624E1922545243001C33EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A624E1722545243001C33EE /* Main.storyboard */; };
+		2A624E1B22545244001C33EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A624E1A22545244001C33EE /* Assets.xcassets */; };
+		2A624E1E22545244001C33EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A624E1C22545244001C33EE /* LaunchScreen.storyboard */; };
+		2A624E2122545244001C33EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A624E2022545244001C33EE /* main.m */; };
+		2A624E2822545598001C33EE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A624E2722545598001C33EE /* ViewController.xib */; };
+		2A6B686B2256F9B400C8C750 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6B68692256F9B400C8C750 /* libmp3lame.a */; };
+		2AB0559522545E570040EEFC /* Mp3Encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0559322545E570040EEFC /* Mp3Encoder.cpp */; };
+		2AB0559722545FE30040EEFC /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB0559622545FE30040EEFC /* libc++.1.tbd */; };
+		A5BAF6975A5423916003AEA5 /* libPods-AVCDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D8376BD446CDF9C5F4B1B8 /* libPods-AVCDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A624E0E22545243001C33EE /* AVCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A624E1122545243001C33EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A624E1222545243001C33EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A624E1422545243001C33EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A624E1522545243001C33EE /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		2A624E1822545243001C33EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A624E1A22545244001C33EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A624E1D22545244001C33EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A624E1F22545244001C33EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A624E2022545244001C33EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A624E2722545598001C33EE /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		2A6B68672256F9B400C8C750 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		2A6B68692256F9B400C8C750 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		2AB0559322545E570040EEFC /* Mp3Encoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mp3Encoder.cpp; sourceTree = "<group>"; };
+		2AB0559422545E570040EEFC /* Mp3Encoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mp3Encoder.h; sourceTree = "<group>"; };
+		2AB0559622545FE30040EEFC /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		AE0776DA2E7366236D2ACE82 /* Pods-AVCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVCDemo.release.xcconfig"; path = "Target Support Files/Pods-AVCDemo/Pods-AVCDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C59B5A311522788D3E536122 /* Pods-AVCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVCDemo.debug.xcconfig"; path = "Target Support Files/Pods-AVCDemo/Pods-AVCDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F0D8376BD446CDF9C5F4B1B8 /* libPods-AVCDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AVCDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A624E0B22545243001C33EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6B686B2256F9B400C8C750 /* libmp3lame.a in Frameworks */,
+				2AB0559722545FE30040EEFC /* libc++.1.tbd in Frameworks */,
+				A5BAF6975A5423916003AEA5 /* libPods-AVCDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A87F47B4874F8D03AF4EC40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AB0559622545FE30040EEFC /* libc++.1.tbd */,
+				F0D8376BD446CDF9C5F4B1B8 /* libPods-AVCDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A624E0522545243001C33EE = {
+			isa = PBXGroup;
+			children = (
+				2A624E1022545243001C33EE /* AVCDemo */,
+				2A624E0F22545243001C33EE /* Products */,
+				F617E0DF1D151A6F1B60645D /* Pods */,
+				1A87F47B4874F8D03AF4EC40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A624E0F22545243001C33EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A624E0E22545243001C33EE /* AVCDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A624E1022545243001C33EE /* AVCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2AB0559222545E410040EEFC /* Encoder */,
+				2A624E1122545243001C33EE /* AppDelegate.h */,
+				2A624E1222545243001C33EE /* AppDelegate.m */,
+				2A624E1422545243001C33EE /* ViewController.h */,
+				2A624E1522545243001C33EE /* ViewController.mm */,
+				2A624E2722545598001C33EE /* ViewController.xib */,
+				2A624E1722545243001C33EE /* Main.storyboard */,
+				2A624E1A22545244001C33EE /* Assets.xcassets */,
+				2A624E1C22545244001C33EE /* LaunchScreen.storyboard */,
+				2A624E1F22545244001C33EE /* Info.plist */,
+				2A624E2022545244001C33EE /* main.m */,
+			);
+			path = AVCDemo;
+			sourceTree = "<group>";
+		};
+		2A6B68642256F9B400C8C750 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				2A6B68652256F9B400C8C750 /* include */,
+				2A6B68682256F9B400C8C750 /* lib */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		2A6B68652256F9B400C8C750 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2A6B68662256F9B400C8C750 /* lame */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		2A6B68662256F9B400C8C750 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				2A6B68672256F9B400C8C750 /* lame.h */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		2A6B68682256F9B400C8C750 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2A6B68692256F9B400C8C750 /* libmp3lame.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		2AB0559222545E410040EEFC /* Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				2A6B68642256F9B400C8C750 /* lame */,
+				2AB0559422545E570040EEFC /* Mp3Encoder.h */,
+				2AB0559322545E570040EEFC /* Mp3Encoder.cpp */,
+			);
+			path = Encoder;
+			sourceTree = "<group>";
+		};
+		F617E0DF1D151A6F1B60645D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C59B5A311522788D3E536122 /* Pods-AVCDemo.debug.xcconfig */,
+				AE0776DA2E7366236D2ACE82 /* Pods-AVCDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A624E0D22545243001C33EE /* AVCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A624E2422545244001C33EE /* Build configuration list for PBXNativeTarget "AVCDemo" */;
+			buildPhases = (
+				F80EF6BA2B3C2C06AF3B0F6C /* [CP] Check Pods Manifest.lock */,
+				2A624E0A22545243001C33EE /* Sources */,
+				2A624E0B22545243001C33EE /* Frameworks */,
+				2A624E0C22545243001C33EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVCDemo;
+			productName = AVCDemo;
+			productReference = 2A624E0E22545243001C33EE /* AVCDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A624E0622545243001C33EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = MJHF;
+				TargetAttributes = {
+					2A624E0D22545243001C33EE = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 2A624E0922545243001C33EE /* Build configuration list for PBXProject "AVCDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A624E0522545243001C33EE;
+			productRefGroup = 2A624E0F22545243001C33EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A624E0D22545243001C33EE /* AVCDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A624E0C22545243001C33EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A624E1E22545244001C33EE /* LaunchScreen.storyboard in Resources */,
+				2A624E1B22545244001C33EE /* Assets.xcassets in Resources */,
+				2A624E2822545598001C33EE /* ViewController.xib in Resources */,
+				2A624E1922545243001C33EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F80EF6BA2B3C2C06AF3B0F6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AVCDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A624E0A22545243001C33EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A624E1622545243001C33EE /* ViewController.mm in Sources */,
+				2A624E2122545244001C33EE /* main.m in Sources */,
+				2A624E1322545243001C33EE /* AppDelegate.m in Sources */,
+				2AB0559522545E570040EEFC /* Mp3Encoder.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A624E1722545243001C33EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A624E1822545243001C33EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A624E1C22545244001C33EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A624E1D22545244001C33EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A624E2222545244001C33EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A624E2322545244001C33EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A624E2522545244001C33EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C59B5A311522788D3E536122 /* Pods-AVCDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y68G5C7724;
+				INFOPLIST_FILE = AVCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AVCDemo/Encoder",
+					"$(PROJECT_DIR)/AVCDemo/Encoder/lame/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leva.AVCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2A624E2622545244001C33EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE0776DA2E7366236D2ACE82 /* Pods-AVCDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y68G5C7724;
+				INFOPLIST_FILE = AVCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AVCDemo/Encoder",
+					"$(PROJECT_DIR)/AVCDemo/Encoder/lame/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leva.AVCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A624E0922545243001C33EE /* Build configuration list for PBXProject "AVCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A624E2222545244001C33EE /* Debug */,
+				2A624E2322545244001C33EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A624E2422545244001C33EE /* Build configuration list for PBXNativeTarget "AVCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A624E2522545244001C33EE /* Debug */,
+				2A624E2622545244001C33EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A624E0622545243001C33EE /* Project object */;
+}
