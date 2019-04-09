@@ -15,6 +15,7 @@
 		2A624E2122545244001C33EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A624E2022545244001C33EE /* main.m */; };
 		2A624E2822545598001C33EE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A624E2722545598001C33EE /* ViewController.xib */; };
 		2A6B686B2256F9B400C8C750 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6B68692256F9B400C8C750 /* libmp3lame.a */; };
+		2A878790225C26EF003BF273 /* vocal.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 2A87878F225C26EF003BF273 /* vocal.pcm */; };
 		2AB0559522545E570040EEFC /* Mp3Encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0559322545E570040EEFC /* Mp3Encoder.cpp */; };
 		2AB0559722545FE30040EEFC /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB0559622545FE30040EEFC /* libc++.1.tbd */; };
 		A5BAF6975A5423916003AEA5 /* libPods-AVCDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D8376BD446CDF9C5F4B1B8 /* libPods-AVCDemo.a */; };
@@ -34,6 +35,7 @@
 		2A624E2722545598001C33EE /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		2A6B68672256F9B400C8C750 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
 		2A6B68692256F9B400C8C750 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		2A87878F225C26EF003BF273 /* vocal.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = vocal.pcm; sourceTree = "<group>"; };
 		2AB0559322545E570040EEFC /* Mp3Encoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mp3Encoder.cpp; sourceTree = "<group>"; };
 		2AB0559422545E570040EEFC /* Mp3Encoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mp3Encoder.h; sourceTree = "<group>"; };
 		2AB0559622545FE30040EEFC /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				2A624E1022545243001C33EE /* AVCDemo */,
+				2A87878E225C26B6003BF273 /* Resource */,
 				2A624E0F22545243001C33EE /* Products */,
 				F617E0DF1D151A6F1B60645D /* Pods */,
 				1A87F47B4874F8D03AF4EC40 /* Frameworks */,
@@ -132,6 +135,14 @@
 				2A6B68692256F9B400C8C750 /* libmp3lame.a */,
 			);
 			path = lib;
+			sourceTree = "<group>";
+		};
+		2A87878E225C26B6003BF273 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2A87878F225C26EF003BF273 /* vocal.pcm */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		2AB0559222545E410040EEFC /* Encoder */ = {
@@ -211,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A878790225C26EF003BF273 /* vocal.pcm in Resources */,
 				2A624E1E22545244001C33EE /* LaunchScreen.storyboard in Resources */,
 				2A624E1B22545244001C33EE /* Assets.xcassets in Resources */,
 				2A624E2822545598001C33EE /* ViewController.xib in Resources */,

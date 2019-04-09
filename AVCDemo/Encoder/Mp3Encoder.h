@@ -14,7 +14,7 @@
 class Mp3Encoder {
 public:
     Mp3Encoder();
-    virtual ~Mp3Encoder() {};
+    virtual ~Mp3Encoder();
     int Init(const char* pcmFilePath, const char *mp3FilePath,int sampleRate, int channels, int bitRate);
     void Encode();
     void Destory();

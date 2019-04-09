@@ -9,6 +9,8 @@
 #include "Mp3Encoder.h"
 Mp3Encoder::Mp3Encoder() {}
 
+Mp3Encoder::~Mp3Encoder() {}
+
 int Mp3Encoder::Init(const char *pcmFilePath, const char *mp3FilePath, int sampleRate, int channels,
                      int bitRate) {
     int ret = -1;
